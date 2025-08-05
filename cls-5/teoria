@@ -1,0 +1,48 @@
+Conceptos fundamentales CSS
+
+-index.css
+
+selector {
+    propiedad: valor;
+}
+
+ejemplo:
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+Aplicar css
+in line: <h1 style="color: green;">Hello!</h1>
+
+etiqueta styale dentro de <head></head>
+<head>
+    h1 {
+        color:blue;
+    }
+
+    .titulo {
+        font-size: smaller;
+    }
+
+    #titulo-general{
+        font-style: italic;
+    }
+</head>
+
+por medio de un link
+    <link rel="stylesheet" href="index.css">
+
+Modelo de caja
+    Margin
+    Border
+    Padding
+    Content
+
+    tiene orientaciones
+        top
+        left
+        right
+        bottom
+
+    

@@ -1,0 +1,27 @@
+clase css - FLEXBOX
+
+.coitener {
+    display: flex;
+}
+
+Terminos Generales de flex:
+
+Container: Elemento padre que contiene los elementos flex.
+Flex item: Son los elementos hijos que el coentendor flex organiza la alinea.
+Main axis: El eje principal de  distribucion de los elementos, defenido con flex-direction (fila o columna).
+Cross axis: El eje perpendicular al principal, usado para alinear y distribuir elementos.
+Main start and main end: Los puntos de inicio y fin del eje principal.
+Croos statr and croos end: Los puntos de inicio y fin del eje perpendicular (o crusado).
+
+Propiedades de container:
+
+Flex-Direction: Propiedad que define la direccion del eje principal.
+Justify-content: Controla como se alinean los elementos flex en el eje ...
+Align items: alinea sus items
+Align content: 
+
+Propiedades de item:
+Flex:
+Order:
+Align-self: Alinea al item
+

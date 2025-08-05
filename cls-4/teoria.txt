@@ -1,0 +1,12 @@
+div
+
+. = <div></div>
+.contenido>h1+p>a
+(.contenido>h1+p>a)+(.blog>h2#encabezado+p>a)
+
+
+CDN
+Crear cuenta en aws
+    
+
+siguiente clase css
