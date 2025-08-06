@@ -3,3 +3,19 @@
     margin: 0;
     border: 0;
 }
+
+body, html {
+    height: 100%;
+}
+
+.main_conteiner {
+    background-color: #1E1E1E;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 260px 1fr;
+}
+
+aside {
+    background-color: #121212;
+}
