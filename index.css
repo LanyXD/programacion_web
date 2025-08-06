@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     border: 0;
+    font-family: sans-serif;
 }
 
 body, html {
@@ -18,4 +19,16 @@ body, html {
 
 aside {
     background-color: #121212;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
 }
