@@ -1,0 +1,81 @@
+<!--
+    Estudiante:
+Andy Isaac Monzón López - 1530522
+
+    Emmet completo:
+html:5>body>(header.Encabezado>h1.Titulo)+(main.Cuerpo>(Secction.Preguntas>h3+(p+input[type=text])*3)+(Secction.imagenes>table>tr>td*2>figure>img[src]+p+button)+(article>h3+details>sumary+p))+(fotter.Pie>(p+a:blank)*3) 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Página random</title>
+</head>
+<body>
+    <!-- Emmet: header.Encabezado>h1.Titulo -->
+    <header class="Encabezado">
+        <h1 class="Titulo">Página random</h1>
+    </header>
+
+    <!-- Emmet: main.Cuerpo>Secction.Preguntas>h3+(p+input[type=text])*3 -->
+    <main class="Cuerpo">
+        <Secction class="Preguntas">
+            <h3>Preguntas random:</h3>
+            <p>¿Animal favorito?</p>
+            <input type="text">
+            <p>¿Planta favorita?</p>
+            <input type="text">
+            <p>¿Pokemon favorito?</p>
+            <input type="text">
+        </Secction>
+
+        <!-- Emmet: Secction.imagenes>table>tr>td*2>figure>img[src]+p+button -->
+        <Secction class="imagenes">
+            <table>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="https://www.pngitem.com/pimgs/m/267-2674563_fruit-loops-bird-png-transparent-png.png" alt="Imagen de un loro">
+                            <p>Toucan Sam</p>
+                            <button>Alimentar tucan</button>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="https://pm1.narvii.com/6559/b25dd9a7f228d04d74e4b45724417ef23c3d00b6_hq.jpg" alt="Imagen de un tigre">
+                            <p>Tigre toño</p>
+                            <button>Alimentar tigre</button>
+                        </figure>
+                    </td>
+                </tr>
+            </table>
+        </Secction>
+
+        <!-- article>h3+details>sumary+p -->
+        <article>
+            <h3>Articulo</h3>
+            <details>
+                <sumary>¿Página sin proposito?</sumary>
+                <p>Noup, es una página chill que me ayuda a practicar la abreviacion Emmet</p>
+            </details>
+        </article>
+
+    <!-- Emmet: aside.Extra>p -->
+     <aside class="Extra">
+        <p>Texto extra porque... es una página aleatoria, asi que Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia commodi odio quis mollitia consequatur, atque, aut possimus numquam ex reprehenderit impedit libero similique in at doloremque? Dicta quia ullam dolore.</p>
+     </aside>
+
+     <!-- Emmet: fotter.Pie>(p+a:blank)*3 -->
+      <fotter class="Pie">
+        <p>Sitios random</p>
+        <p>Página #1</p>
+        <a href="http://google.com" target="_blank" rel="noopener noreferrer">Google</a>
+        <p>Página #2</p>
+        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <p>Página #3</p>
+        <a href="http://chimichangaweb.com" target="_blank" rel="noopener noreferrer">Chimichangas</a>
+      </fotter>
+
+</body>
+</html>
