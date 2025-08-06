@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
     border: 0;
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    color: #E0E0E0;
 }
 
 body, html {
@@ -19,6 +21,7 @@ body, html {
 
 aside {
     background-color: #121212;
+    color: #D1D5DB;
 }
 
 header {
@@ -31,4 +34,23 @@ header {
 .actions {
     display: flex;
     align-items: center;
+}
+
+.new_chat, .extra_chat, .chats {
+  padding: 20px;
+}
+
+.action_hover {
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.action_hover:hover {
+    background-color: #343541;
+}
+
+h4 {
+    color: #A0A0A0;
+    font-size: small;
 }
