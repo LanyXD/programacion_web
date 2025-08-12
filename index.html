@@ -4,10 +4,58 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="src/index.css">
+    <title>Chat GPT</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div class="main_conteiner">
+        <aside class="sidebar">
+            <header>
+                <div class="logo">logo</div>
+                <div class="collapse">collapse</div>
+            </header>
+
+            <div class="main_sidebar">
+                <div class="new_chat">
+                    <p class="action_hover">New chat</p>
+                    <p class="action_hover">Search chats</p>
+                    <p class="action_hover">Library</p>
+                </div>
+                <div class="extra_chat">
+                    <p class="action_hover">Sora</p>
+                    <p class="action_hover">GPTs</p>
+                    <p class="action_hover">Tutor me</p>
+                    <p class="action_hover">Whimsical Diagrams</p>
+                </div>
+                <h4>Chats</h4>
+                <div class="chats">
+                    <p class="action_hover">Hola mundo</p>
+                    <p class="action_hover">Adios mundo</p>
+                    <p class="action_hover">Nah...</p>
+                </div>
+            </div>
+
+        </aside>
+
+        <main class="chat-area">
+             <header>
+                <div class="title">ChatGPT</div>
+                <div class="actions">
+                    <p>Share</p>
+                    <p>...</p>
+                </div>
+             </header>
+
+             <div class="main_section">
+                <div class="wellcome">
+                    <h1>What's on your mind today?</h1>
+                </div>
+                <div class="chat-container">
+                    <textarea placeholder="Ask anything"></textarea>
+                </div>
+             </div>
+
+        </main>
+    </div>
   </body>
 </html>
