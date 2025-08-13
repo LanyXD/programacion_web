@@ -42,3 +42,16 @@ Proyecto de la **Tarea 02** adaptado para utilizar **Vite** y desplegado en **AW
    git clone https://github.com/usuario/programacion_web.git
    cd programacion_web
    git checkout tarea-03
+
+2. Instalar dependencias:
+   ```bash
+   npm install
+
+3. Ejecutar en desarrollo:
+   ```bash
+   npm run dev
+
+4. Generar build de producción:
+   ```bash
+   npm run build
+   
