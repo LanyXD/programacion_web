@@ -7,6 +7,5 @@ import Title from './components/Title.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Title />
   </StrictMode>,
 )
