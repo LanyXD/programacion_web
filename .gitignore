@@ -1,0 +1,23 @@
+# Dependencias
+node_modules/
+.pnpm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Build
+dist/
+build/
+
+# Archivos de ambiente
+.env
+.env.*.local
+
+# IDE / SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
