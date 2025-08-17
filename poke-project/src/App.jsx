@@ -1,20 +1,27 @@
 import { useState, useEffect } from 'react'
+import axios from "axios"
 import PokeGallery from './components/PokeGallery'
 import PokeNav from './components/PokeNav'
 
 
 function App() {
   const [pokemons, setPokemons] = useState([])
-
+  
   useEffect(() => {
-    fetch("https://pokeapi.co/api/v2/pokemon?limit=6")
-    .then(res => res.json())
-    .then(data => 
-      Promise.all(data.results.map(p => fetch(p.url).then(r => r.json())))
-    )
-    .then(details => setPokemons(details));
+    const fetchPokemons = async () => {
+      try {
+        const res = await axios.get("https://pokeapi.co/api/v2/pokemon?limit=6")
+        const details = await Promise.all(
+          res.data.results.map(p => axios.get(p.url).then(r => r.data))
+        )
+        setPokemons(details)
+      } catch (error) {
+        console.error("Error cargando Pokémon:", error)
+      }
+    }
 
-  }, []);
+    fetchPokemons()
+  }, [])
 
   return (
     <>
