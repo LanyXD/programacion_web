@@ -8,23 +8,23 @@ This application displays a gallery of cards with Pokémon information dynamical
 ## 📸 Doppler
 
 - **Config Syncs**  
-![Config Syncs Doppler](docs/cap2.png)
+![Config Syncs Doppler](poke-project/docs/cap2.png)
 
 - **Variables de Doppler**  
-![Variables Doppler](docs/cap1.png)
+![Variables Doppler](poke-project/docs/cap1.png)
 
 ---
 
 ## 🔐 GitHub Secret
 
-![Secretos GitHub](docs/cap3.png)
+![Secretos GitHub](poke-project/docs/cap3.png)
 
 ---
 
 ## 📸 App
 
 Working Pokémon Gallery:  
-![Galería Pokémon](docs/cap4.png)
+![Galería Pokémon](poke-project/docs/cap4.png)
 
 ---
 
