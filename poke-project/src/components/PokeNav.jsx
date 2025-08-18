@@ -1,6 +1,10 @@
 function PokeNav () {
     return (
-        <div className="navigation"></div>
+        <>
+        <div className="navigation">
+            
+        </div>
+        </>
     )
 }
 
