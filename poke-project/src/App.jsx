@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     const fetchPokemons = async () => {
       try {
-        const res = await axios.get("https://pokeapi.co/api/v2/pokemon?limit=50") // trae más Pokémon
+        const res = await axios.get("https://pokeapi.co/api/v2/pokemon?limit=100")
         const details = await Promise.all(
           res.data.results.map(p => axios.get(p.url).then(r => r.data))
         )
