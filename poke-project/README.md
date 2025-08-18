@@ -1,12 +1,33 @@
-# React + Vite
+# Pokémon Gallery Web App (Assessment 1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This application displays a gallery of cards with Pokémon information dynamically obtained from the **PokeAPI**. The project is deployed on **AWS CloudFront**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Doppler
 
-## Expanding the ESLint configuration
+- **Config Syncs**  
+![Config Syncs Doppler](docs/cap2.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Variables de Doppler**  
+![Variables Doppler](docs/cap1.png)
+
+---
+
+## 🔐 GitHub Secret
+
+![Secretos GitHub](docs/cap3.png)
+
+---
+
+## 📸 App
+
+Working Pokémon Gallery:  
+![Galería Pokémon](docs/cap4.png)
+
+---
+
+## 🌐 URL pública del CDN
+
+[https://tu-cloudfront-url.amazonaws.com](https://d1izkb5ee96rhb.cloudfront.net)
