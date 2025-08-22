@@ -1,0 +1,35 @@
+Hooks
+Los hooks nos permiten agregar un estado a un componenete, por ende, mejorar la funcionalidad.
+
+useState
+Permite manejar estado en componentes funcionales.
+
+Estructura
+
+import { UseState } from "react";
+
+function Counter() {
+    cont [counter, setCounter] = useState(0);
+    return {
+    <>
+        <p> Has hecho click { counter } veces</p>
+    </>
+    }
+}
+
+useEffect
+
+Estructura
+
+import { useState, useEffect } from "react";
+
+function Reloj() {
+    const [hora,  setHora] = useState( new Date());
+
+    useEffect(() => {
+        const id = setInterval(() => setHora(new), 1000);
+        return () => clearInterval(id);
+    }, []);
+
+    return <h2>(hora.toLacaleTimeString())</h2>
+}
