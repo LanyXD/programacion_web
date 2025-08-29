@@ -2,6 +2,7 @@
     border: 0;
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -18,4 +19,38 @@ body {
    align-items: center;
    background-color: rgb(74, 151, 130);
    color: white;
+}
+
+.add_section {
+    padding: 20px 30px 20px 30px;
+    width: 100%;
+    background-color: rgb(220, 208, 168);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons_layout {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 20%;
+    background-color: rgb(255, 249, 229);
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.data_layout {
+    width: 100%;
+}
+
+.input_id {
+    width: 200px;
 }

@@ -10,7 +10,7 @@ function TaskManager() {
             <h1>Task Manager</h1>
             
             <h2>--Add Secction--</h2>
-            <AddTask />
+            <AddTask/>
 
             <h2>--Filter Secction--</h2>
             <FilterTask />
