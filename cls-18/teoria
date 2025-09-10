@@ -1,0 +1,8 @@
+python makemigration m -00001
+BD no conectado
+
+python migration
+BD conectado
+
+Clase de git flows
+
