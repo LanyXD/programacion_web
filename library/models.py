@@ -19,3 +19,8 @@ class Edition(models.Model):
     edition_number = models.PositiveIntegerField()
     format = models.CharField(max_length=50, blank=True)
     pages = models.PositiveIntegerField(blank=True, null=True)
+
+class Author(models.Model):
+    book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='authors')
+    name = models.CharField(max_length=100)
+    birth_year = models.PositiveIntegerField(blank=True, null=True)
