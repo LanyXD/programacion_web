@@ -1,0 +1,23 @@
+XML, JSON, YAML
+
+serializadores
+
+ViewSets
+Views
+APIView
+
+Router
+Default_route
+
+
+en el proyecto
+instalar
+pip install djangorestframework
+
+/configuraciones.py
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+]
+
+
