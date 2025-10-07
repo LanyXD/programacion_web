@@ -1,0 +1,24 @@
+docker ps
+docker <servicio> <accion>
+
+servicio
+
+docker image ls
+
+docker image ls | grep nginx
+
+docker pull nginx 1.29.1
+
+docker run nginx 1.29.1
+
+docker run -d nginx 1.29.1
+
+docker run -d -p 80:80 nginx 1.29.1
+
+docker container stop <nombre del contenedor>
+
+docker compose up -d
+
+        o
+
+docker -compose up -d

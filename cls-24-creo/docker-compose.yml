@@ -1,0 +1,22 @@
+version: 3.8
+
+services:
+  # db:
+  #   image: postgres:17
+  #  enviroment: 
+  #    POSTGRES_PASSWORD: password
+  #  ports:
+  #    - 5432:5432
+  #  volumes:
+  #   - pg_volume:/var/lib/postgresql
+
+  web:
+    image: nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./:/usr/share/nginx/html
+
+volumes:
+  pg_volume:
+
