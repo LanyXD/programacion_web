@@ -1,23 +1,43 @@
-# HW-05 — Django Migrations
+# HW 6 — Docker
 
----
+## Objective
+Deploy the project from Homework 5 using Docker efficiently, ensuring:
+- Lightweight and secure image (non-root)
+- Use of Postgres as the database
+- Migrations executed inside the container, not in the image
+- Good Docker and Django practices
 
-## Database Diagrams
+## Requirements
+- Docker >= 20.x
+- docker-compose >= 1.29.x
+- Python 3.11
+- Default credentials included in `.env`
 
-### 0001 — Book
-![0001 Book](docs/0001_book.png)
+## Main Files
+- `Dockerfile` — Builds the app image
+- `docker-compose.yml` — Defines `web` and `db` services
+- `entrypoint.sh` — Waits for the database and runs migrations
+- `.env` — Environment variables
+- `requirements.txt` — Python dependencies
 
-### 0002 — Publisher
-![0002 Publisher](docs/0002_publisher.png)
+## Running with Docker
+1. Build image and start containers:
+   ```bash
+   docker compose up --build
+   ```
+   This will:
+   - Build the `web` image
+   - Start Postgres
+   - Wait until the database is ready
+   - Run `python manage.py migrate` and `collectstatic`
+   - Start Gunicorn on `0.0.0.0:8000`
 
-### 0003 — Edition
-![0003 Edition](docs/0003_edition.png)
+2. Open the app in your browser:
+   ```
+   http://localhost:8000
+   ```
 
-### 0004 — Author
-![0004 Author](docs/0004_author.png)
-
----
-
-## Migration Evidence
-
-![Migrations](docs/showmigrations.png)
+3. To stop the services:
+   ```bash
+   docker compose down
+   ```
