@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Hide from './pages/Hide';
 import Reveal from './pages/Reveal';
+import "./styles/main.css"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
