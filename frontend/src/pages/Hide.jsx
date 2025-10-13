@@ -1,8 +1,11 @@
+import SecretForm from "../components/SecretForm";
+
 function Hide() {
     return  (
-        <>
-        <h1>hola, ocultar</h1>
-        </>
+        <div className="container">
+            <h1>Comparte un secreto</h1>
+            <SecretForm />
+        </div>
     )
 }
 
